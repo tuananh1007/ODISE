@@ -616,7 +616,7 @@ class CaptionODISE(ODISE):
                     )
                     processed_results[-1]["instances"] = instance_r
 
-            return processed_results
+            return processed_results, features
 
 
 class ODISEMultiScaleMaskedTransformerDecoder(MultiScaleMaskedTransformerDecoder):
